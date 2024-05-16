@@ -1,6 +1,7 @@
 /*This code is intended for an ESP32 microprocessor to operate two sensors,
 a Capacitive Soil Moisture Sensor and a UV Detection Sensor, 
-and send the data obtained every one minute time interval via Wi-Fi.*/
+and send the data obtained every one minute time interval via Wi-Fi.
+Remember to calibrate the Capacitive Soil Moisture Sensor before using it.*/
 
 #include <Arduino.h>
 
